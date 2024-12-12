@@ -1,0 +1,12 @@
+.canvas {
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  justify-items: center;
+}
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 31, 31);
+}

@@ -68,3 +68,7 @@ function setCanDraw() {
     CanDraw = false;
   }
 }
+
+function clearAllPage() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}

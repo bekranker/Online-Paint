@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <link rel="stylesheet" href="canvasStyle.css" />
+  </head>
   <body>
     <script src="MousePos.js"></script>
     <script src="index.js"></script>
     <script src="Canvas.js"></script>
     <div id="canvas-parent"></div>
-    <input
-      type="checkbox"
-      class="CheckBox"
-      id="myCheck"
-      onclick="setCanDraw()"
-    />
+
+    <div style="display: flex; flex-direction: row">
+      <p>Draw:</p>
+      <input
+        type="checkbox"
+        class="CheckBox"
+        id="myCheck"
+        onclick="setCanDraw()"
+      />
+    </div>
     <button onclick="clearAllPage()">Delete All</button>
   </body>
 </html>
